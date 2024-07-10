@@ -6,9 +6,10 @@
     <title>Test</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="h-[100vh] w-[100vw] flex justify-center items-center">
-    <h1 class="text-[5rem] text-blue-500">AL SIMAIL CONSTRACTIONS</h1> 
+<body class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 overflow-hidden">
+    <div class="h-[100vh] w-[100vw] flex flex-col justify-center items-center">
+    <h1 class="text-[5rem] text-yellow-500">AL SIMAIL CONSTRACTIONS</h1> 
+    <h2 class="text-[3rem] text-white">The Website Under Establish</h2>
     </div>
    <
 </body>
