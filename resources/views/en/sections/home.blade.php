@@ -1,7 +1,7 @@
 
  <!-- The video -->
   <div class="z-[-1] ">
- <video autoplay loop id="myVideo">
+ <video autoplay muted loop id="myVideo">
   <source src="{{ asset('images/video1.mp4') }}" type="video/mp4">
 </video>
 
