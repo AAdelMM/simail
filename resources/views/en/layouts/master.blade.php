@@ -11,7 +11,10 @@
 </head>
 <body class="bg-[#1e304e] m-0 p-0">
     @include('en.sections.header')
+   
     @include('en.sections.home')
-
+   
+    @include('en.sections.about_us')
+    
 </body>
 </html>
