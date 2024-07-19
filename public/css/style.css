@@ -34,3 +34,40 @@
     background: #ddd;
     color: black;
   } 
+
+  /*menu*/
+  /* Ensure the mobile menu is hidden by default */
+#burger-button {
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+/* Show mobile menu when button is clicked */
+.mobile-menu.active {
+  display: block;
+}
+
+@media screen and (max-width:500px) {
+  #about{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
+
+  #about-image{
+    position:unset;
+    width: 80%;
+   margin-bottom: 20px;
+    
+  }
+  #about-text{
+    width:80%;
+   
+    position:unset;
+  }
+}
