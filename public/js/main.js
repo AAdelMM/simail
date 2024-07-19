@@ -39,3 +39,75 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+
+// Function to check if the element is in the viewport
+function isInViewport(element) {
+  const rect = element.getBoundingClientRect();
+  return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+// Function to handle animation by adding/removing classes
+function handleScroll() {
+  const elements = document.querySelectorAll('.fade-in');
+  elements.forEach(element => {
+      if (isInViewport(element)) {
+          element.classList.remove('hidden');
+          element.classList.add('animate');
+      } else {
+          element.classList.add('hidden');
+          element.classList.remove('animate');
+      }
+  });
+}
+
+// Debounce function to limit the rate of scroll event handling
+function debounce(func, wait) {
+  let timeout;
+  return function(...args) {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func.apply(this, args), wait);
+  };
+}
+
+// Attach the scroll event listener
+window.addEventListener('scroll', debounce(handleScroll, 100));
+
+// Initial check in case the section is already in view
+handleScroll();
+
+//carousel
+
+document.addEventListener('DOMContentLoaded', () => {
+  const carouselItems = document.querySelectorAll('.carousel-item');
+  let currentIndex = 0;
+  const intervalTime = 20000; // Change the item every 10 seconds
+
+  // Ensure the first item is visible
+  carouselItems[currentIndex].classList.remove('hidden');
+
+  function showItem(index) {
+      carouselItems[currentIndex].classList.add('hidden');
+      currentIndex = index;
+      carouselItems[currentIndex].classList.remove('hidden');
+  }
+
+  function showNextItem() {
+      showItem((currentIndex + 1) % carouselItems.length);
+  }
+
+  function showPrevItem() {
+      showItem((currentIndex - 1 + carouselItems.length) % carouselItems.length);
+  }
+
+  document.getElementById('next').addEventListener('click', showNextItem);
+  document.getElementById('prev').addEventListener('click', showPrevItem);
+
+  setInterval(showNextItem, intervalTime); // Automatically change the item every intervalTime milliseconds
+});
+
+

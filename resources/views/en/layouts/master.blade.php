@@ -11,10 +11,32 @@
 </head>
 <body class="bg-[#1e304e] m-0 p-0">
     @include('en.sections.header')
-   
     @include('en.sections.home')
    
-    @include('en.sections.about_us')
+    <div id="carousel" class="relative  w-full h-full">
+        <div class="carousel-inner relative w-full h-full">
+            <div class="carousel-item absolute w-full h-full">
+                @include('en.sections.about_us')
+            </div>
+            <div class="carousel-item absolute w-full h-full hidden">
+                @include('en.sections.vision')
+            </div>
+            <div class="carousel-item absolute w-full h-full hidden">
+                @include('en.sections.mission')
+            </div>
+            <div class="carousel-item absolute w-full h-full hidden">
+                @include('en.sections.message')
+            </div>
+              <!-- Navigation buttons -->
+               <div class="absolute md:top-[90vh] top-[95vh] w-[100vw] gap-5 flex justify-center">
+               <button id="prev" class="  transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2">Prev</button>
+               <button id="next" class="  transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2">Next</button>
     
+               </div>
+         
+        </div>
+        
+    </div>
+    </div>
 </body>
 </html>
