@@ -1,7 +1,7 @@
 <section id="message" class="overflow-hidden">
 
     <div class="w-[100vw] h-[100vh]  mx-auto border-t-2 border-[#efc02e] flex  justify-center lg:items-end items-center">
-        <div class="image-container absolute">
+        <div class="image-container absolute ">
             <img src="{{ asset('images/vision.jpg') }}" alt="Logo" loading="lazy">
             <div class="overlay"></div>
         </div>  

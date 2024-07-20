@@ -11,7 +11,7 @@
         <div class="  w-[100%] hidden   lg:inline-flex justify-around items-center ">
             <a href="#" class="text-[#1e304e]">Home</a>
             <a href="#about" class="text-[#1e304e]">About Us</a>
-            <a href="#" class="text-[#1e304e]">Services</a>
+            <a href="#services" class="text-[#1e304e]">Services</a>
             <a href="#" class="text-[#1e304e]">Clients</a>
             <a href="#" class="text-[#1e304e]">Our Partners</a>
             <a href="#" class="text-[#1e304e]">Projects</a>
@@ -35,7 +35,7 @@
     <div class="mobile-menu hidden lg:hidden absolute top-30 left-5 w-[50%] bg-[#efc02e] bg-opacity-80 text-[#1e304e] z-50 rounded-3xl">
         <a href="#" class="block px-4 py-2">Home</a>
         <a href="#about" class="block px-4 py-2">About Us</a>
-        <a href="#" class="block px-4 py-2">Services</a>
+        <a href="#services" class="block px-4 py-2">Services</a>
         <a href="#" class="block px-4 py-2">More</a>
         <a href="#" class="block px-4 py-2"> العربية</a>
     </div>

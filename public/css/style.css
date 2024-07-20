@@ -135,6 +135,13 @@ margin: auto;
     height: 20px;
     
   }
+  
+  .image-container img {
+    display:none;
+    height: auto;
+    position: relative;
+    
+  }
 }
 
 @media screen and (max-width:1200px) {

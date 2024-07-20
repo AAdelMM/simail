@@ -1,6 +1,6 @@
 
  <!-- The video -->
-  <section class="overflow-hidden">
+  <section class="overflow-hidden ">
   <div class="z-[-1] ">
       <video autoplay muted loop id="myVideo">
         <source src="{{ asset('images/video1.mp4') }}" type="video/mp4">
