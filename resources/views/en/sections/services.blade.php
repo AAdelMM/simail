@@ -1,6 +1,6 @@
 <section id="services" class="w-[100vw] h-[auto] border-t-2 border-[#efc02e] mb-[4rem]">
     <div class="w-[100vw] h-[auto] my-[5rem] flex justify-center">
-        <h1 class="text-[#efc02e] text-[4rem] font-bold">Our Services</h1>
+        <h1 class="text-[#efc02e] md:text-[4rem] text-[2.5rem] font-bold">Our Services</h1>
     </div>
     <div class="container m-auto py-10 flex justify-center items-center bg-[#efc02e] rounded-3xl flex-wrap">
         
