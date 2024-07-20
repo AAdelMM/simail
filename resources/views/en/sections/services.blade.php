@@ -9,7 +9,7 @@
                 <img class="rounded-lg w-[100%] h-[100%]" src="{{asset('images/9.png')}}" alt="" loading="lazy">
             </div> 
             <div class="w-[100%] h-[25%] flex justify-center items-center">
-                <h1 class="text-[2rem] font-bold text-[#1e304e]"> Road planning works </h1>
+                <h1 class="md:text-[2rem] text-[1.5rem] font-bold text-[#1e304e]"> Road planning works </h1>
             </div>
             
         </div>
@@ -19,7 +19,7 @@
                 <img class="rounded-lg w-[100%] h-[100%]" src="{{asset('images/7.png')}}" alt="" loading="lazy">
             </div> 
             <div class="w-[100%] h-[25%] flex justify-center items-center">
-                <h1 class="text-[2rem] font-bold text-[#1e304e]">Asphalt Quality Testing</h1>
+                <h1 class="md:text-[2rem] text-[1.5rem]  font-bold text-[#1e304e]">Asphalt Quality Testing</h1>
             </div>
             
         </div>
@@ -29,7 +29,7 @@
                 <img class="rounded-lg w-[100%] h-[100%]" src="{{asset('images/5.png')}}" alt="" loading="lazy">
             </div> 
             <div class="w-[100%] h-[25%] flex justify-center items-center">
-                <h1 class="text-[2rem] font-bold text-[#1e304e]"> Asphalt Production </h1>
+                <h1 class="md:text-[2rem] text-[1.5rem]  font-bold text-[#1e304e]"> Asphalt Production </h1>
             </div>
             
         </div>
@@ -39,7 +39,7 @@
                 <img class="rounded-lg w-[100%] h-[100%]" src="{{asset('images/2.png')}}" alt="" loading="lazy">
             </div> 
             <div class="w-[100%] h-[25%] flex justify-center items-center">
-                <h1 class="text-[2rem] font-bold text-[#1e304e]">Heating Systems</h1>
+                <h1 class="md:text-[2rem] text-[1.5rem]  font-bold text-[#1e304e]">Heating Systems</h1>
             </div>
             
         </div>
@@ -49,7 +49,7 @@
                 <img class="rounded-lg w-[100%] h-[100%]" src="{{asset('images/11.png')}}" alt="" loading="lazy">
             </div> 
             <div class="w-[100%] h-[25%] flex justify-center items-center">
-                <h1 class="text-[2rem] font-bold text-[#1e304e]">Plaster Supply works </h1>
+                <h1 class="md:text-[2rem] text-[1.5rem]  font-bold text-[#1e304e]">Plaster Supply works </h1>
             </div>
             
         </div>
@@ -59,7 +59,7 @@
                 <img class="rounded-lg w-[100%] h-[100%]" src="{{asset('images/3.png')}}" alt="" loading="lazy">
             </div> 
             <div class="w-[100%] h-[25%] flex justify-center items-center">
-                <h1 class="text-[2rem] font-bold text-[#1e304e]">Material Production</h1>
+                <h1 class="md:text-[2rem] text-[1.5rem]  font-bold text-[#1e304e]">Material Production</h1>
             </div>
             
         </div>
@@ -69,7 +69,7 @@
                 <img class="rounded-lg w-[100%] h-[100%]" src="{{asset('images/12.png')}}" alt="" loading="lazy">
             </div> 
             <div class="w-[100%] h-[25%] flex justify-center items-center">
-                <h1 class="text-[2rem] font-bold text-[#1e304e]">Crushers</h1>
+                <h1 class="md:text-[2rem] text-[1.5rem]  font-bold text-[#1e304e]">Crushers</h1>
             </div>
             
         </div>
@@ -79,7 +79,7 @@
                 <img class="rounded-lg w-[100%] h-[100%]" src="{{asset('images/4.png')}}" alt="" loading="lazy">
             </div> 
             <div class="w-[100%] h-[25%] flex justify-center items-center">
-                <h1 class="text-[2rem] font-bold text-[#1e304e]">Stone Production</h1>
+                <h1 class="md:text-[2rem] text-[1.5rem]  font-bold text-[#1e304e]">Stone Production</h1>
             </div>
             
         </div>
@@ -89,7 +89,7 @@
                 <img class="rounded-lg w-[100%] h-[100%]" src="{{asset('images/13.png')}}" alt="" loading="lazy">
             </div> 
             <div class="w-[100%] h-[25%] flex justify-center items-center">
-                <h1 class="text-[2rem] font-bold text-[#1e304e]">Digging Works</h1>
+                <h1 class="md:text-[2rem] text-[1.5rem]  font-bold text-[#1e304e]">Digging Works</h1>
             </div>
             
         </div>
