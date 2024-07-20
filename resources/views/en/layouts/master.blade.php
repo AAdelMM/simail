@@ -39,7 +39,8 @@
     
     
     @include('en.sections.services')
-    
+    @include('en.sections.projects')
+
     
 
 </body>

@@ -12,18 +12,16 @@
             <a href="#" class="text-[#1e304e]">Home</a>
             <a href="#about" class="text-[#1e304e]">About Us</a>
             <a href="#services" class="text-[#1e304e]">Services</a>
+            <a href="#project" class="text-[#1e304e]">Projects</a>
             <a href="#" class="text-[#1e304e]">Clients</a>
             <a href="#" class="text-[#1e304e]">Our Partners</a>
-            <a href="#" class="text-[#1e304e]">Projects</a>
+            
             <div class="relative">
                 <a href="#" class="text-[#1e304e] more-link">More</a>
-                <div class="sub-menu w-[12rem] absolute hidden mt-2 bg-[#efc02e] z-[100] text-[#1e304e]">
-                    
-                    
+                <div class="sub-menu w-[12rem] absolute hidden mt-2 bg-[#efc02e] z-[100] text-[#1e304e]">      
                     <a href="#" class="block px-4 py-2">Organizational Structure</a>
                     <a href="#" class="block px-4 py-2">Fields of Work</a>
                     <a href="#" class="block px-4 py-2">Equipment and Tools</a>
-                    
                     <a href="#" class="block px-4 py-2">Accreditation</a>
                     <a href="#" class="block px-4 py-2">Contact Us</a>
                 </div>
@@ -36,6 +34,7 @@
         <a href="#" class="block px-4 py-2">Home</a>
         <a href="#about" class="block px-4 py-2">About Us</a>
         <a href="#services" class="block px-4 py-2">Services</a>
+        <a href="#project" class="block px-4 py-2">Projects</a>
         <a href="#" class="block px-4 py-2">More</a>
         <a href="#" class="block px-4 py-2"> العربية</a>
     </div>
