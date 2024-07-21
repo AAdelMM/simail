@@ -6,7 +6,7 @@
             <div class="w-1/2  border-t-4 border-[#efc02e]"></div>
         </div>
         <div class="clinets-gallary my-10 flex flex-wrap justify-center items center">
-            <div class="logo w-[25rem] h-[auto] border-2 border-white"></div>
+            <div class="logo w-[70vw]  h-[auto] bg-[#efc02e] rounded-3xl flex justify-center p-4"><img class="w-[90%]" src="{{asset('images/test1.png')}}" alt=""></div>
         </div>
     </div>
 
