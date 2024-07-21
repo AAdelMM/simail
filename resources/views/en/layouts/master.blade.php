@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <script src="{{ asset('js/main.js') }}"></script>
 </head>
-<body class="bg-[#1e304e] m-0 p-0">
+<body class="bg-[#1e304e] m-0 p-0 overflow-x-hidden">
     @include('en.sections.header')
     @include('en.sections.home')
     
@@ -40,8 +40,8 @@
     
     @include('en.sections.services')
     @include('en.sections.projects')
-
-    
+    @include('en.sections.clinets')
+    @include('en.sections.footer')
 
 </body>
 </html>

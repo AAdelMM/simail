@@ -13,7 +13,7 @@
             <a href="#about" class="text-[#1e304e]">About Us</a>
             <a href="#services" class="text-[#1e304e]">Services</a>
             <a href="#project" class="text-[#1e304e]">Projects</a>
-            <a href="#" class="text-[#1e304e]">Clients</a>
+            <a href="#clinet" class="text-[#1e304e]">Clients</a>
             <a href="#" class="text-[#1e304e]">Our Partners</a>
             
             <div class="relative">
@@ -35,6 +35,7 @@
         <a href="#about" class="block px-4 py-2">About Us</a>
         <a href="#services" class="block px-4 py-2">Services</a>
         <a href="#project" class="block px-4 py-2">Projects</a>
+        <a href="#clinet" class="block px-4 py-2">Clinets</a>
         <a href="#" class="block px-4 py-2">More</a>
         <a href="#" class="block px-4 py-2"> العربية</a>
     </div>
