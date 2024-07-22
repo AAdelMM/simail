@@ -10,6 +10,7 @@
     <script src="{{ asset('js/main.js') }}"></script>
 </head>
 <body class="bg-[#1e304e] m-0 p-0 overflow-x-hidden">
+ 
     @include('en.sections.header')
     @include('en.sections.home')
     

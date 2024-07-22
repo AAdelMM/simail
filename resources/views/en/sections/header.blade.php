@@ -9,11 +9,11 @@
         <!-- Navigation Links -->
          
         <div class="  w-[100%] hidden   lg:inline-flex justify-around items-center ">
-            <a href="#" class="text-[#1e304e]">Home</a>
-            <a href="#about" class="text-[#1e304e]">About Us</a>
-            <a href="#services" class="text-[#1e304e]">Services</a>
-            <a href="#project" class="text-[#1e304e]">Projects</a>
-            <a href="#clinet" class="text-[#1e304e]">Clients</a>
+            <a href="/" class="text-[#1e304e]">Home</a>
+            <a href="/#about" class="text-[#1e304e]">About Us</a>
+            <a href="/#services" class="text-[#1e304e]">Services</a>
+            <a href="/#project" class="text-[#1e304e]">Projects</a>
+            <a href="/#clinet" class="text-[#1e304e]">Clients</a>
             <a href="#" class="text-[#1e304e]">Our Partners</a>
             
             <div class="relative">
@@ -22,7 +22,7 @@
                     <a href="#" class="block px-4 py-2">Organizational Structure</a>
                     <a href="#" class="block px-4 py-2">Fields of Work</a>
                     <a href="#" class="block px-4 py-2">Equipment and Tools</a>
-                    <a href="#" class="block px-4 py-2">Accreditation</a>
+                    <a href="/certified" class="block px-4 py-2">Certifications</a>
                     <a href="#" class="block px-4 py-2">Contact Us</a>
                 </div>
             </div>
