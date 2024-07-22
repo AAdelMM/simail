@@ -112,6 +112,18 @@ margin: auto;
 }
 
 @media screen and (max-width:500px) {
+  #myVideo{
+    
+    min-height: 50vh !important;
+    margin-bottom: 10rem;
+  }
+  .video-text {
+    position: absolute !important;
+    top:0 !important;
+    font-size: 1.2rem !important;
+    margin-bottom: 18rem;
+    
+  }
   #aboutus{
     
     display:flex;
@@ -147,7 +159,7 @@ margin: auto;
     position: absolute;
     left: 1rem;
     height:auto !important;
-    width:50%;
+    width:60%;
   }
 
   .RS {
