@@ -8,3 +8,7 @@ Route::get('/', function () {
 Route::get('/certified', function () {
     return view('en.pages.certified');
     });
+
+Route::get('/structure', function () {
+    return view('en.pages.structure');
+    });
