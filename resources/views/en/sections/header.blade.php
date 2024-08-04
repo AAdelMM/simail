@@ -23,7 +23,7 @@
                     <a href="#" class="block px-4 py-2">Fields of Work</a>
                     <a href="#" class="block px-4 py-2">Equipment and Tools</a>
                     <a href="/certified" class="block px-4 py-2">Certifications</a>
-                    <a href="#" class="block px-4 py-2">Contact Us</a>
+                    <a href="/contactus" class="block px-4 py-2">Contact Us</a>
                 </div>
             </div>
             <a href="#" class="text-[#1e304e] px-7">  العربية</a>

@@ -12,3 +12,7 @@ Route::get('/certified', function () {
 Route::get('/structure', function () {
     return view('en.pages.structure');
     });
+
+Route::get('/contactus', function () {
+    return view('en.pages.contact_us');
+    });
