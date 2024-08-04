@@ -44,7 +44,7 @@
 
        </div>
 
-        <div class="copy-right w-[100%] h-[2rem] flex justify-center items-center bg-[#a7b0be]">
+        <div class="copy-right w-[100%] h-[2rem] flex justify-center items-center ">
             <h1 class="text-[1rem] text-[#efc02e]">Copy Rights Reserved © 2024 AL Simail Co</h1>
         </div>
     </div>

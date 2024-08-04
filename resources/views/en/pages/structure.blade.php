@@ -9,7 +9,7 @@
     <div class="w-[80%] bg-[#efc02e] text-center rounded-2xl"><h1 class="text-[3rem] font-serif font-bold p-4 text-[#1e304e]">الشؤون المالية</h1></div>
     <div class="w-[80%] border-2 border-[#efc02e] text-center rounded-2xl">    
         <div class="bg-[rgb(239,192,46)] text-center"><h1 class="text-[3rem] font-serif font-bold p-4 text-[#1e304e]">الإدارة التنفيذية</h1></div>
-            <div class="flex justify-center items-center flex-wrap 2xl:flex-row   flex-col gap-4 my-[2rem]">
+            <div class="flex justify-center items-start flex-wrap 2xl:flex-row   flex-col gap-4 my-[2rem]">
                 <div class="bg-[#1e304e] w-[10rem] h-10 rounded-lg text-white text-[1rem] p-2"><h1>نقليات</h1></div>
                 <div class="bg-[#1e304e] w-[10rem] h-10  rounded-lg text-white text-[1rem] p-2"><h1>إدارة المشتريات</h1></div>
                 <div class="bg-[#1e304e] w-[10rem] h-10  rounded-lg text-white text-[1rem] p-2"><h1>الموارد البشرية</h1></div>
