@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+//English version
+
 Route::get('/', function () {
     return view('en.layouts.master');
 });
@@ -23,4 +25,28 @@ Route::get('/field', function () {
 
 Route::get('/machien', function () {
     return view('en.pages.machien');
+    });
+
+//Arabic Version
+Route::get('/ar', function () {
+    return view('ar.layouts.master');
+});
+Route::get('/ar/certified', function () {
+    return view('ar.pages.certified');
+    });
+
+Route::get('/ar/structure', function () {
+    return view('ar.pages.structure');
+    });
+
+Route::get('/ar/contactus', function () {
+    return view('ar.pages.contact_us');
+    });
+
+Route::get('/ar/field', function () {
+        return view('ar.pages.fields');
+        });
+
+Route::get('/ar/machien', function () {
+    return view('ar.pages.machien');
     });

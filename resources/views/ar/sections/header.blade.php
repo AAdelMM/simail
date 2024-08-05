@@ -9,24 +9,24 @@
         <!-- Navigation Links -->
          
         <div class="  w-[100%] hidden   lg:inline-flex justify-around items-center ">
-            <a href="/" class="text-[#1e304e]">Home</a>
-            <a href="/#about" class="text-[#1e304e]">About Us</a>
-            <a href="/#services" class="text-[#1e304e]">Services</a>
-            <a href="/#project" class="text-[#1e304e]">Projects</a>
-            <a href="/#clinet" class="text-[#1e304e]">Clients</a>
-            <a href="#" class="text-[#1e304e]">Our Partners</a>
-            
+              
             <div class="relative">
-                <a href="#" class="text-[#1e304e] more-link">More</a>
+                <a href="#" class="text-[#1e304e] more-link">المزيد</a>
                 <div class="sub-menu w-[12rem] absolute hidden mt-2 bg-[#efc02e] z-[100] text-[#1e304e]">      
-                    <a href="/structure" class="block px-4 py-2">Business Structure</a>
-                    <a href="/field" class="block px-4 py-2">Fields of Work</a>
-                    <a href="/machien" class="block px-4 py-2">Equipment and Tools</a>
-                    <a href="/certified" class="block px-4 py-2">Certifications</a>
-                    <a href="/contactus" class="block px-4 py-2">Contact Us</a>
+                    <a href="/ar/structure" class="block px-4 py-2">الهيكل التنظيمي</a>
+                    <a href="/ar/field" class="block px-4 py-2">مجالات العمل</a>
+                    <!-- <a href="/ar/machien" class="block px-4 py-2">المعدات والادوات</a> -->
+                    <a href="/ar/certified" class="block px-4 py-2">اعتماداتنا</a>
+                    <a href="/ar/contactus" class="block px-4 py-2">تواصل معنا</a>
                 </div>
             </div>
-            <a href="/ar/" class="text-[#1e304e] px-7">  العربية</a>
+            <a href="#" class="text-[#1e304e]">شركاؤنا</a>
+            <a href="/ar/#clinet" class="text-[#1e304e]">عملاؤنا</a>
+            <a href="/ar/#project" class="text-[#1e304e]">المشاريع</a>
+            <a href="/ar/#services" class="text-[#1e304e]">الخدمات</a>
+            <a href="/ar/#about" class="text-[#1e304e]">من نحن</a>
+            <a href="/ar/" class="text-[#1e304e]">الرئيسية</a>
+            <a href="/" class="text-[#1e304e] px-7">English</a>
         </div>
     </div>
     
