@@ -16,3 +16,11 @@ Route::get('/structure', function () {
 Route::get('/contactus', function () {
     return view('en.pages.contact_us');
     });
+
+Route::get('/field', function () {
+        return view('en.pages.fields');
+        });
+
+Route::get('/machien', function () {
+    return view('en.pages.machien');
+    });
