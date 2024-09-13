@@ -1,6 +1,8 @@
 <section id="footer" class="border-t-2 border-[#efc02e]">
     <div class="container m-auto flex flex-col  ">
-        <div class="w-[100%] h-[30rem] "><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.975241458224!2d50.056896496789555!3d26.456526999999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49fc2b1281457b%3A0x90faefdeb5c0eec6!2z2YXYpNiz2LPYqSDYp9mE2LPZhdin2LnZitmEINmE2YTZhdmC2KfZiNmE2KfYqg!5e0!3m2!1sen!2sbh!4v1721554400346!5m2!1sen!2sbh" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="w-[100%] h-[30rem] ">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.3614097678924!2d46.8127998!3d24.680100000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f07ba2e60a529%3A0x6f9f2724de5fe1d2!2z2YXYpNiz2LPYqSDYrtin2YTYryDYp9mE2LPZhdin2LnZitmEINmE2YTZhdmC2KfZiNmE2KfYqg!5e0!3m2!1sar!2ssa!4v1726259321084!5m2!1sar!2ssa" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
         <div class="w-[100%] h-[20rem] inline-flex flex-wrap bg-[#efc02e] relative justify-around items-center">
 
