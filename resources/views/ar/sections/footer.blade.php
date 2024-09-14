@@ -37,9 +37,9 @@
                     <h1>المكتب</h1>
                 </div>
                 <div class="w-[60%] text-[#1e304e]">
-                    <p class="font-bold py-1">العنوان: <br><span class="font-normal">الدمام، طريق الأمير نايف بن عبد العزيز</span></p>
+                    <p class="font-bold py-1">العنوان: <br><span class="font-normal">الرياض حي الفيحاء طريق البيان</span></p>
                     <p class="font-bold py-1" >الهاتف: <span class="font-normal" style="direction:rtl;" >966114000085+</span></p>
-                    <p class="font-bold py-1">البريد الإلكتروني: <span class="font-normal">admin@admin.com</span></p>
+                    <p class="font-bold py-1">البريد الإلكتروني: <span class="font-normal">khalid@alismailco.com</span></p>
                 </div>
             </div>
 

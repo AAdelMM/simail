@@ -11,9 +11,9 @@
                     <h1>Office</h1>
                 </div>
                 <div class="w-[60%] text-[#1e304e] ">
-                    <p class="font-bold py-1">Address: <br><span class="font-normal">Damam Prince Nayef Bin Abdulaziz RD</span></p>
+                    <p class="font-bold py-1">Address: <br><span class="font-normal">Riyadh, Al Faihaa District, Al Bayan RD</span></p>
                     <p class="font-bold py-1">Phone: <span class="font-normal">+966 11 400 0085</span></p>
-                    <p class="font-bold py-1">Email:  <span class="font-normal">admin@admin.com</span></p>
+                    <p class="font-bold py-1">Email:  <span class="font-normal">khalid@alismailco.com</span></p>
 
                 </div>
             </div>
