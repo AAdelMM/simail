@@ -10,11 +10,11 @@
                 <div class="pt-10"><h1 class="md:text-[1.5rem] text-[0.9rem]">تابعنا</h1></div>
                 
                 <div class="social md:w-[50%] w-[90%] flex flex-row justify-around pb-5 md:pb-0 text-white">
-                    <div class="facebook w-[2rem] h-[auto]"><img src="{{asset('images/facebook.png')}}" alt="فيسبوك"></div>
-                    <div class="instagram w-[2rem] h-[auto]"><img src="{{asset('images/insta.png')}}" alt="انستغرام"></div>
-                    <div class="X w-[2rem] h-[auto]"><img src="{{asset('images/x.png')}}" alt="إكس"></div>
-                    <div class="youtube w-[2rem] h-[auto]"><img src="{{asset('images/youtube.png')}}" alt="يوتيوب"></div>
-                    <div class="tiktok w-[2rem] h-[auto]"><img src="{{asset('images/tiktok.png')}}" alt="تيك توك"></div>
+                   
+                    <a href="https://www.instagram.com/kha1idalism/"><div class="instagram w-[2rem] h-[auto]"><img src="{{asset('images/insta.png')}}" alt="انستغرام"></div></a>
+                    <a href="https://x.com/khalidalism"><div class="X w-[2rem] h-[auto]"><img src="{{asset('images/x.png')}}" alt="إكس"></div></a>
+                    <a href="https://www.youtube.com/@khalidalism"><div class="youtube w-[2rem] h-[auto]"><img src="{{asset('images/youtube.png')}}" alt="يوتيوب"></div></a>
+                    <a href=""><div class="tiktok w-[2rem] h-[auto]"><img src="{{asset('images/tiktok.png')}}" alt="تيك توك"></div></a>
                 </div>
             </div>
 
@@ -24,10 +24,10 @@
                 </div>
                 <div class="w-[40%] h-[auto] inline-flex justify-center gap-5 my-5">
                     <div class="w-[2rem] h-[auto]">
-                        <img src="{{asset('images/call.png')}}" alt="اتصل بنا">
+                        <a href="tel:+966114000085"><img src="{{asset('images/call.png')}}" alt="اتصل بنا"></a>
                     </div>
                     <div class="w-[2rem] h-[auto]">
-                        <img src="{{asset('images/message.png')}}" alt="أرسل رسالة">
+                        <a href="mailto:khalid@alismailco.com"><img src="{{asset('images/message.png')}}" alt="أرسل رسالة"></a>
                     </div>
                 </div>
             </div>

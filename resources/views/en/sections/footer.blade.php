@@ -24,10 +24,10 @@
                 </div>
                 <div class="w-[40%] h-[auto] inline-flex justify-center gap-5 my-5">
                     <div class="w-[2rem] h-[auto]">
-                        <img src="{{asset('images/call.png')}}" alt="call us">
+                    <a href="tel:+966114000085"><img src="{{asset('images/call.png')}}" alt="call us"></a>
                     </div>
                     <div class="w-[2rem] h-[auto]">
-                        <img src="{{asset('images/message.png')}}" alt="send message">
+                    <a href="mailto:khalid@alismailco.com"><img src="{{asset('images/message.png')}}" alt="send message"></a>
                     </div>
                 </div>
             </div>
@@ -36,11 +36,11 @@
                 <div class="pt-10"><h1 class="md:text-[1.5rem] text-[0.9rem] ">Follow Us</h1></div>
                 
                 <div class="social md:w-[50%] w-[90%] flex flex-row justify-around pb-5 md:pb-0 text-white">
-                    <div class="facebook w-[2rem] h-[auto]"><img src="{{asset('images/facebook.png')}}" alt="facebook"></div>
-                    <div class="instagram w-[2rem] h-[auto]"><img src="{{asset('images/insta.png')}}" alt="insta"></div>
-                    <div class="X w-[2rem] h-[auto]"><img src="{{asset('images/x.png')}}" alt="logo"></div>
-                    <div class="youtube w-[2rem] h-[auto]"><img src="{{asset('images/youtube.png')}}" alt=""></div>
-                    <div class="tiktok w-[2rem] h-[auto]"><img src="{{asset('images/tiktok.png')}}" alt="tiktok"></div>
+                    
+                    <a href="https://www.instagram.com/kha1idalism/"><div class="instagram w-[2rem] h-[auto]"><img src="{{asset('images/insta.png')}}" alt="insta"></div></a>
+                    <a href="https://x.com/khalidalism"><div class="X w-[2rem] h-[auto]"><img src="{{asset('images/x.png')}}" alt="logo"></div></a>
+                    <a href="https://www.youtube.com/@khalidalism"><div class="youtube w-[2rem] h-[auto]"><img src="{{asset('images/youtube.png')}}" alt=""></div></a>
+                    <a href=""><div class="tiktok w-[2rem] h-[auto]"><img src="{{asset('images/tiktok.png')}}" alt="tiktok"></div></a>
                 </div>
             </div>
 
