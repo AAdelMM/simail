@@ -45,9 +45,9 @@
             <div class="bg-primary text-white shadow-lg rounded-lg p-6">
                 <h2 class="text-2xl font-semibold mb-4">معلومات الاتصال</h2>
                 <div class="space-y-4">
-                    <p><i class="fas fa-map-marker-alt ml-2"></i> 123 شارع الإنشاءات، مدينة البناء، 12345</p>
-                    <p><i class="fas fa-phone ml-2"></i> (555) 123-4567</p>
-                    <p><i class="fas fa-envelope ml-2"></i> info@constructionco.com</p>
+                    <p><i class="fas fa-map-marker-alt ml-2"></i> الرياض حي الفيحاء طريق البيان</p>
+                    <p><i class="fas fa-phone ml-2"></i> 966114000085+</p>
+                    <p><i class="fas fa-envelope ml-2"></i> khalid@alismailco.com</p>
                 </div>
                 <div class="mt-8">
                     <h3 class="text-xl font-semibold mb-2">ساعات العمل</h3>
@@ -57,11 +57,11 @@
                 </div>
                 <div class="mt-8">
                     <h3 class="text-xl font-semibold mb-2">تابعنا</h3>
-                    <div class="flex space-x-4">
-                        <a href="#" class="text-white hover:text-secondary transition duration-300"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#" class="text-white hover:text-secondary transition duration-300"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="text-white hover:text-secondary transition duration-300"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="text-white hover:text-secondary transition duration-300"><i class="fab fa-instagram"></i></a>
+                    <div class="flex gap-4">
+                        <a href="https://www.tiktok.com/@alismailco?_t=8piWJIVlZpq&_r=1" class="text-white hover:text-secondary transition duration-300"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://x.com/khalidalism" class="text-white hover:text-secondary transition duration-300"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/@khalidalism" class="text-white hover:text-secondary transition duration-300"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/kha1idalism/" class="text-white hover:text-secondary transition duration-300"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>

@@ -14,7 +14,7 @@
                     <a href="https://www.instagram.com/kha1idalism/"><div class="instagram w-[2rem] h-[auto]"><img src="{{asset('images/insta.png')}}" alt="انستغرام"></div></a>
                     <a href="https://x.com/khalidalism"><div class="X w-[2rem] h-[auto]"><img src="{{asset('images/x.png')}}" alt="إكس"></div></a>
                     <a href="https://www.youtube.com/@khalidalism"><div class="youtube w-[2rem] h-[auto]"><img src="{{asset('images/youtube.png')}}" alt="يوتيوب"></div></a>
-                    <a href=""><div class="tiktok w-[2rem] h-[auto]"><img src="{{asset('images/tiktok.png')}}" alt="تيك توك"></div></a>
+                    <a href="https://www.tiktok.com/@alismailco?_t=8piWJIVlZpq&_r=1"><div class="tiktok w-[2rem] h-[auto]"><img src="{{asset('images/tiktok.png')}}" alt="تيك توك"></div></a>
                 </div>
             </div>
 
