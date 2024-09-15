@@ -20,23 +20,30 @@
 <section class="bg-gray-100 font-sans h-[auto] w-[100vw] flex items-center justify-center" dir="rtl">
 
 <div class="container mx-auto xl:my-[10rem] my-[6rem] px-4 py-8 flex-col justify-center items-center">
+@if (session('success'))
+            <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative mb-4" role="alert">
+                <strong class="font-bold">تم بنجاح!</strong>
+                <span class="block sm:inline">{{ session('success') }}</span>
+            </div>
+        @endif
         <h1 class="text-4xl font-bold text-primary mb-8">اتصل بنا</h1>
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="bg-white shadow-lg rounded-lg p-6">
                 <h2 class="text-2xl font-semibold text-primary mb-4">تواصل معنا</h2>
-                <form>
+                <form action="{{ route('contact.submit') }}" method="POST">
+                    @csrf
                     <div class="mb-4">
                         <label for="name" class="block text-sm font-medium text-gray-700 mb-1">الاسم</label>
-                        <input type="text" id="name" name="name" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary">
+                        <input type="text" id="name" name="name" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary" required>
                     </div>
                     <div class="mb-4">
                         <label for="email" class="block text-sm font-medium text-gray-700 mb-1">البريد الإلكتروني</label>
-                        <input type="email" id="email" name="email" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary">
+                        <input type="email" id="email" name="email" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary" required>
                     </div>
                     <div class="mb-4">
                         <label for="message" class="block text-sm font-medium text-gray-700 mb-1">الرسالة</label>
-                        <textarea id="message" name="message" rows="4" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary"></textarea>
+                        <textarea id="message" name="message" rows="4" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary" required></textarea>
                     </div>
                     <button type="submit" class="w-full bg-secondary text-primary font-bold py-2 px-4 rounded-md hover:bg-opacity-90 transition duration-300">إرسال الرسالة</button>
                 </form>
@@ -72,7 +79,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div>
                     <h3 class="text-lg font-semibold mb-2">المكتب الرئيسي</h3>
-                    <p>123 شارع الإنشاءات، مدينة البناء، 12345</p>
+                    <p>الرياض حي الفيحاء طريق البيان</p>
                 </div>
                 <div>
                     <h3 class="text-lg font-semibold mb-2">موقع المشروع أ</h3>
