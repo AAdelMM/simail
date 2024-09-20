@@ -43,7 +43,7 @@
             </div>
             
         </div>
-
+<!--
         <div class="card w-[25rem] h-[25rem] m-10 p-4 bg-white rounded-lg flex flex-col justify-around items-center">
         <div class="w-[100%] h-[70%]  ">
                 <img class="rounded-lg w-[100%] h-[100%]" src="{{asset('images/11.png')}}" alt="" loading="lazy">
@@ -53,7 +53,7 @@
             </div>
             
         </div>
-
+-->
         <div class="card w-[25rem] h-[25rem] m-10 p-4 bg-white rounded-lg flex flex-col justify-around items-center">
         <div class="w-[100%] h-[70%]  ">
                 <img class="rounded-lg w-[100%] h-[100%]" src="{{asset('images/3.png')}}" alt="" loading="lazy">
