@@ -81,14 +81,14 @@
                     <h3 class="text-lg font-semibold mb-2">المكتب الرئيسي</h3>
                     <p>الرياض حي الفيحاء طريق البيان</p>
                 </div>
-                <div>
+               <!--  <div>
                     <h3 class="text-lg font-semibold mb-2">موقع المشروع أ</h3>
                     <p>456 طريق التطوير، المدينة الجديدة، 67890</p>
                 </div>
                 <div>
                     <h3 class="text-lg font-semibold mb-2">موقع المشروع ب</h3>
                     <p>789 شارع الابتكار، وادي التكنولوجيا، 13579</p>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

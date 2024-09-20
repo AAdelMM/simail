@@ -81,14 +81,14 @@
                     <h3 class="text-lg font-semibold mb-2">Main Office</h3>
                     <p>Riyadh, Al Faihaa District, Al Bayan RD</p>
                 </div>
-                <div>
+                <!-- <div>
                     <h3 class="text-lg font-semibold mb-2">Project Site A</h3>
                     <p>456 Development Rd, New Town, 67890</p>
                 </div>
                 <div>
                     <h3 class="text-lg font-semibold mb-2">Project Site B</h3>
                     <p>789 Innovation St, Tech Valley, 13579</p>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
