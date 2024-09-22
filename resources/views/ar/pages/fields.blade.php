@@ -43,21 +43,21 @@
                 نستخدم أحدث المعدات لضمان الكفاءة والجودة في مشاريعنا:
             </p>
             <ul class="grid grid-cols-2 gap-4">
-                <li class="bg-navy p-2 rounded">حفارات</li>
-                <li class="bg-navy p-2 rounded">بلدوزرات</li>
-                <li class="bg-navy p-2 rounded">رافعات</li>
-                <li class="bg-navy p-2 rounded">خلاطات أسفلت</li>
-                <li class="bg-navy p-2 rounded">رافعات شوكية</li>
-                <li class="bg-navy p-2 rounded">سيور ناقلة</li>
-                <li class="bg-navy p-2 rounded">جريدر</li>
-                <li class="bg-navy p-2 rounded">مقطورة قلابة</li>
-                <li class="bg-navy p-2 rounded">غرابيل اهتزازية</li>
-                <li class="bg-navy p-2 rounded">شاحنة قلابة</li>
-                <li class="bg-navy p-2 rounded">سيارات صالون</li>
-                <li class="bg-navy p-2 rounded">لودر بعجلات</li>
-                <li class="bg-navy p-2 rounded">فرادة</li>
-                <li class="bg-navy p-2 rounded">كسارة</li>
-                <li class="bg-navy p-2 rounded">آلات كشط الأسفلت</li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">حفارات <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">4</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">بلدوزرات <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">4</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">رافعات <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">1</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">خلاطات أسفلت <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">2</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">رافعات شوكية <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">3</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">سيور ناقلة <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">45</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">جريدر <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">3</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">مقطورة قلابة <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">15</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">غرابيل اهتزازية <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">15</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">شاحنة قلابة <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">29</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">سيارات صالون <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">7</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">لودر بعجلات <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">4</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">فرادة <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">8</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">كسارة <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">15</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">آلات كشط الأسفلت <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">1</div></li>
             </ul>
         </section>
     </main>

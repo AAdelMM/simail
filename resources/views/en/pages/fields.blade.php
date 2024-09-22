@@ -43,21 +43,21 @@
                 We utilize state-of-the-art equipment to ensure efficiency and quality in our projects:
             </p>
             <ul class="grid grid-cols-2 gap-4">
-                <li class="bg-navy p-2 rounded">Excavators</li>
-                <li class="bg-navy p-2 rounded">Bulldozers</li>
-                <li class="bg-navy p-2 rounded">Cranes</li>
-                <li class="bg-navy p-2 rounded">Asphalt mixers</li>
-                <li class="bg-navy p-2 rounded">Forklifts</li>
-                <li class="bg-navy p-2 rounded">Conveyor Belts</li>
-                <li class="bg-navy p-2 rounded">Grader</li>
-                <li class="bg-navy p-2 rounded">Dump Trailer</li>
-                <li class="bg-navy p-2 rounded">Vibrating Screens</li>
-                <li class="bg-navy p-2 rounded">Dump Truck</li>
-                <li class="bg-navy p-2 rounded">Salon Cars</li>
-                <li class="bg-navy p-2 rounded"> Wheel Loader</li>
-                <li class="bg-navy p-2 rounded">Paver</li>
-                <li class="bg-navy p-2 rounded">Crusher</li>
-                <li class="bg-navy p-2 rounded">Asphalt Milling Machines</li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">Excavators <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">4</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">Bulldozers <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">4</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">Cranes <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">1</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">Asphalt mixers <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">2</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">Forklifts <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">3</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">Conveyor Belts <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">45</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">Grader <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">3</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">Dump Trailer <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">15</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">Vibrating Screens <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">15</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">Dump Truck <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">29</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">Salon Cars <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">7</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between"> Wheel Loader <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">4</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">Paver <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">8</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">Crusher <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">15</div></li>
+                <li class="bg-navy p-2 rounded inline-flex justify-between">Asphalt Milling Machines <div class="border-2 border-white rounded-full w-[10%] text-center text-[#efc02e]">1</div></li>
             </ul>
         </section>
     </main>
