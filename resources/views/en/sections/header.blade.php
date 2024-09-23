@@ -6,9 +6,8 @@
         </button>
         <img class="w-[3rem] h-[auto] lg:hidden" src="{{asset('images/sub-logo.png')}}" alt="">
 
-        <!-- Navigation Links -->
-         
-        <div class="  w-[100%] hidden   lg:inline-flex justify-around items-center ">
+        <!-- Desktop Navigation Links -->
+        <div class="w-[100%] hidden lg:inline-flex justify-around items-center ">
             <a href="/" class="text-[#1e304e]">Home</a>
             <a href="/#about" class="text-[#1e304e]">About Us</a>
             <a href="/#services" class="text-[#1e304e]">Services</a>
@@ -26,18 +25,25 @@
                     <a href="/contactus" class="block px-4 py-2">Contact Us</a>
                 </div>
             </div>
-            <a href="/ar/" class="text-[#1e304e] px-7">  العربية</a>
+            <a href="/ar/" class="text-[#1e304e] px-7">العربية</a>
         </div>
     </div>
     
+    <!-- Mobile Menu -->
     <div class="mobile-menu hidden lg:hidden absolute top-30 left-5 w-[50%] bg-[#efc02e] bg-opacity-80 text-[#1e304e] z-50 rounded-3xl">
-        <a href="#" class="block px-4 py-2">Home</a>
-        <a href="#about" class="block px-4 py-2">About Us</a>
-        <a href="#services" class="block px-4 py-2">Services</a>
-        <a href="#project" class="block px-4 py-2">Projects</a>
-        <a href="#clinet" class="block px-4 py-2">Clinets</a>
-        <a href="#" class="block px-4 py-2">More</a>
-        <a href="#" class="block px-4 py-2"> العربية</a>
+        <a href="/" class="block px-4 py-2">Home</a>
+        <a href="/#about" class="block px-4 py-2">About Us</a>
+        <a href="/#services" class="block px-4 py-2">Services</a>
+        <a href="/#project" class="block px-4 py-2">Projects</a>
+        <a href="/#clinet" class="block px-4 py-2">Clients</a>
+        <a href="#" class="block px-4 py-2 mobile-more-link">More</a>
+        <div class="mobile-sub-menu hidden">
+            <a href="/structure" class="block px-4 py-2">Business Structure</a>
+            <a href="/field" class="block px-4 py-2">Fields of Work</a>
+            <a href="/machien" class="block px-4 py-2">Equipment and Tools</a>
+            <a href="/certified" class="block px-4 py-2">Certifications</a>
+            <a href="/contactus" class="block px-4 py-2">Contact Us</a>
+        </div>
+        <a href="/ar/" class="block px-4 py-2">العربية</a>
     </div>
-    
 </nav>

@@ -24,21 +24,30 @@ document.addEventListener('DOMContentLoaded', function () {
   const burgerButton = document.getElementById('burger-button');
   const mobileMenu = document.querySelector('.mobile-menu');
   const body = document.body;
+  const moreLink = document.querySelector('.mobile-more-link');
+  const subMenu = document.querySelector('.mobile-sub-menu');
 
   // Toggle the mobile menu
   burgerButton.addEventListener('click', function () {
       mobileMenu.classList.toggle('active');
   });
 
+  // Toggle the submenu inside the mobile menu
+  moreLink.addEventListener('click', function (e) {
+      e.preventDefault();
+      subMenu.classList.toggle('hidden');
+  });
+
   // Close the mobile menu when clicking outside
   document.addEventListener('click', function (event) {
-      // Check if the click was outside the mobile menu and the burger button
       if (!mobileMenu.contains(event.target) && !burgerButton.contains(event.target)) {
           mobileMenu.classList.remove('active');
+          subMenu.classList.add('hidden'); // Close submenu as well
       }
   });
 });
 
+//////////////////////////////////
 
 // Function to check if the element is in the viewport
 function isInViewport(element) {
